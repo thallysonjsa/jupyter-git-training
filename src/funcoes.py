@@ -11,3 +11,6 @@ def raiz(x):
 
 def quadrado(x):
     return math.pow(x)
+
+def cubo(x):
+    return math.pow(x, 3)
