@@ -9,3 +9,5 @@ def triplo(x):
 def raiz(x):
     return math.sqrt(x)
 
+def quadrado(x):
+    return math.pow(x)
