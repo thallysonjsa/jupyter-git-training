@@ -6,8 +6,11 @@ def dobro(x):
 def triplo(x):
     return x * 3
 
-def raiz(x):
-    return math.sqrt(x)
-
 def quadrado(x):
     return math.pow(x)
+
+def tem_par(lista):
+    for numero in lista:
+        if numero % 2 == 0:
+            return True
+    return False
