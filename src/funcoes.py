@@ -11,6 +11,7 @@ def quadrado(x):
 
 def cubo(x):
     return math.pow(x, 3)
+
 def tem_par(lista):
     for numero in lista:
         if numero % 2 == 0:
